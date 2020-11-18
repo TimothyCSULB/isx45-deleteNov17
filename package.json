@@ -1,0 +1,26 @@
+{
+  "name": "deletenov17",
+  "version": "1.0.0",
+  "description": "Heroku PostgreSQL with File I/O",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashercsulb/deleteNov17.git"
+  },
+  "author": "Asher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashercsulb/deleteNov17/issues"
+  },
+  "homepage": "https://github.com/ashercsulb/deleteNov17#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
